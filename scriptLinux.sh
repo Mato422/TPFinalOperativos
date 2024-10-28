@@ -5,8 +5,8 @@ ROJO='\033[0;31m'
 SC='\033[0m'
 
 respaldo_directorio(){
-	local directorio="/Users/rafaelvales/Downloads/operativos"
-	local backup="/Users/rafaelvales/Downloads/backup"
+	local directorio="/Users/Downloads/operativos"
+	local backup="/Users/Downloads/backup"
 	local archivo_respaldo="$backup/backup_$(date +%F).tar.gz"
 	
 	echo -e "${VERDE}Generando respaldo de $directorio...${SC}"
